@@ -1,0 +1,61 @@
+{
+  "name": "storybook-addon-rtl",
+  "description": "Right-to-left addon for Storybook.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unindented/storybook-addon-rtl.git"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "scripts": {
+    "clean:coverage": "rimraf coverage",
+    "clean:dist": "rimraf dist",
+    "clean": "run-p clean:*",
+    "test:lint": "eslint . .storybook",
+    "test:unit": "jest src --coverage --config config/jest/config.json",
+    "test": "run-s test:*",
+    "build": "babel src -d dist",
+    "watch": "babel src --out-dir dist --watch",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "storybook": "start-storybook -p 6006",
+    "prepublishOnly": "run-s clean build"
+  },
+  "dependencies": {
+    "@storybook/addons": "^3.1.6",
+    "prop-types": "^15.5.10",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.1.8",
+    "@storybook/react": "^3.1.7",
+    "@storybook/storybook-deployer": "^2.0.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4",
+    "npm-run-all": "^4.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "rimraf": "^2.6.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}

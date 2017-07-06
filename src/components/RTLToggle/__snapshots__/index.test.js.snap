@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RTLToggle checked renders 1`] = `
+<RTLToggle
+  checked={true}
+  onChange={[Function]}
+>
+  <styled.span>
+    <span
+      className="sc-bdVaJa cCbzIc"
+    >
+      <styled.label
+        checked={true}
+      >
+        <label
+          checked={true}
+          className="sc-bwzfXH khbhTt"
+        >
+          <styled.input
+            aria-controls="rtl-status"
+            checked={true}
+            onChange={[Function]}
+            type="checkbox"
+          >
+            <input
+              aria-controls="rtl-status"
+              checked={true}
+              className="sc-htpNat blGojZ"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </styled.input>
+          <styled.a
+            checked={true}
+          >
+            <a
+              checked={true}
+              className="sc-bxivhb bPhFPF"
+            >
+              Enable right-to-left
+            </a>
+          </styled.a>
+        </label>
+      </styled.label>
+      <styled.span
+        aria-live="polite"
+        id="rtl-status"
+        role="region"
+      >
+        <span
+          aria-live="polite"
+          className="sc-ifAKCX jMbeCk"
+          id="rtl-status"
+          role="region"
+        >
+          Right-to-left
+        </span>
+      </styled.span>
+    </span>
+  </styled.span>
+</RTLToggle>
+`;
+
+exports[`RTLToggle default renders 1`] = `
+<RTLToggle
+  checked={false}
+  onChange={[Function]}
+>
+  <styled.span>
+    <span
+      className="sc-bdVaJa cCbzIc"
+    >
+      <styled.label
+        checked={false}
+      >
+        <label
+          checked={false}
+          className="sc-bwzfXH fCtDWM"
+        >
+          <styled.input
+            aria-controls="rtl-status"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          >
+            <input
+              aria-controls="rtl-status"
+              checked={false}
+              className="sc-htpNat blGojZ"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </styled.input>
+          <styled.a
+            checked={false}
+          >
+            <a
+              checked={false}
+              className="sc-bxivhb dCNeto"
+            >
+              Enable right-to-left
+            </a>
+          </styled.a>
+        </label>
+      </styled.label>
+      <styled.span
+        aria-live="polite"
+        id="rtl-status"
+        role="region"
+      >
+        <span
+          aria-live="polite"
+          className="sc-ifAKCX jMbeCk"
+          id="rtl-status"
+          role="region"
+        >
+          Left-to-right
+        </span>
+      </styled.span>
+    </span>
+  </styled.span>
+</RTLToggle>
+`;
+
+exports[`RTLToggle unchecked renders 1`] = `
+<RTLToggle
+  checked={false}
+  onChange={[Function]}
+>
+  <styled.span>
+    <span
+      className="sc-bdVaJa cCbzIc"
+    >
+      <styled.label
+        checked={false}
+      >
+        <label
+          checked={false}
+          className="sc-bwzfXH fCtDWM"
+        >
+          <styled.input
+            aria-controls="rtl-status"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          >
+            <input
+              aria-controls="rtl-status"
+              checked={false}
+              className="sc-htpNat blGojZ"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </styled.input>
+          <styled.a
+            checked={false}
+          >
+            <a
+              checked={false}
+              className="sc-bxivhb dCNeto"
+            >
+              Enable right-to-left
+            </a>
+          </styled.a>
+        </label>
+      </styled.label>
+      <styled.span
+        aria-live="polite"
+        id="rtl-status"
+        role="region"
+      >
+        <span
+          aria-live="polite"
+          className="sc-ifAKCX jMbeCk"
+          id="rtl-status"
+          role="region"
+        >
+          Left-to-right
+        </span>
+      </styled.span>
+    </span>
+  </styled.span>
+</RTLToggle>
+`;

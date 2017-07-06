@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RTLPanel with query parameter renders 1`] = `
+<RTLPanel
+  checked={true}
+  onChange={[Function]}
+/>
+`;
+
+exports[`RTLPanel without query parameter renders 1`] = `
+<RTLPanel
+  checked={false}
+  onChange={[Function]}
+/>
+`;

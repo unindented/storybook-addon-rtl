@@ -1,0 +1,11 @@
+{
+  "rootDir": "../../",
+  "snapshotSerializers": [
+    "<rootDir>/node_modules/enzyme-to-json/serializer"
+  ],
+  "coverageReporters": [
+    "text",
+    "text-summary",
+    "html"
+  ]
+}

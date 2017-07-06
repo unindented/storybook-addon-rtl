@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RTLPanel renders 1`] = `
+<styled.div>
+  <RTLToggle
+    checked={true}
+    onChange={[Function]}
+  />
+</styled.div>
+`;
