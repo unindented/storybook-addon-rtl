@@ -26,7 +26,6 @@
     "prepublishOnly": "run-s clean build"
   },
   "dependencies": {
-    "@storybook/addons": "^3.1.6",
     "prop-types": "^15.5.10",
     "styled-components": "^2.1.1"
   },
@@ -55,6 +54,7 @@
     "rimraf": "^2.6.1"
   },
   "peerDependencies": {
+    "@storybook/addons": "^3.1.6",
     "react": "*",
     "react-dom": "*"
   }
