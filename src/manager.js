@@ -8,8 +8,8 @@ export function register () {
     const channel = addons.getChannel()
     addons.addPanel(PANEL_ID, {
       title: 'RTL',
-      render: () => {
-        /* eslint-disable-next-line react/prop-types, no-undef */
+      render: props => {
+        /* eslint-disable-next-line react/prop-types */
         const active = !props || props.active
         return active ? <RTLPanel channel={channel} api={api} /> : null
       }
