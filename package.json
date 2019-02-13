@@ -58,7 +58,7 @@
     "rimraf": "^2.6.1"
   },
   "peerDependencies": {
-    "@storybook/addons": "3.x || 4.x",
+    "@storybook/addons": "^3.1.6 || 4.x",
     "react": "*",
     "react-dom": "*"
   }
