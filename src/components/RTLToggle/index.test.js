@@ -1,6 +1,9 @@
 import React from 'react'
-import {mount} from 'enzyme'
+import { mount, configure } from 'enzyme'
 import RTLToggle from '.'
+import Adapter from 'enzyme-adapter-react-16'
+
+configure({ adapter: new Adapter() })
 
 describe('RTLToggle', () => {
   let spy
@@ -20,7 +23,7 @@ describe('RTLToggle', () => {
     })
 
     it('invokes `onChange` when changed', () => {
-      wrapper.find('input').simulate('change', {target: {checked: true}})
+      wrapper.find('input').simulate('change', { target: { checked: true } })
       expect(spy).toHaveBeenCalledWith(true)
     })
   })

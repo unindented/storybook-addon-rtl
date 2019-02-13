@@ -1,5 +1,5 @@
-import {configure} from '@storybook/react'
-import {initializeRTL} from '../src'
+import { configure } from '@storybook/react'
+import { initializeRTL } from '../src'
 
 initializeRTL()
 

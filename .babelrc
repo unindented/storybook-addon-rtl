@@ -1,3 +1,7 @@
 {
-  "presets": ["es2015", "react"]
+  "sourceType": "unambiguous",
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
 }

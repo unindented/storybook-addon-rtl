@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import {
   Toggle,
@@ -21,7 +21,7 @@ export default class RTLToggle extends Component {
   }
 
   render () {
-    const {checked} = this.props
+    const { checked } = this.props
 
     return (
       <Toggle>
