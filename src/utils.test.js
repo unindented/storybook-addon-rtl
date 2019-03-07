@@ -10,7 +10,7 @@ describe('utils', () => {
       expect(getDefaultTextDirection(api)).toBe('rtl')
     })
 
-    it('returns the text direction from the body tag', () => {
+    it('returns the text direction from the html tag', () => {
       const api = {
         getQueryParam: jest.fn().mockReturnValue(undefined)
       }
@@ -28,9 +28,9 @@ describe('utils', () => {
   })
 
   describe('.setTextDirection', () => {
-    it('sets the direction of the body', () => {
+    it('sets the direction of the html tag', () => {
       setTextDirection('rtl')
-      expect(document.body.dir).toBe('rtl')
+      expect(document.documentElement.dir).toBe('rtl')
     })
   })
 })
