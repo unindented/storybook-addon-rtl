@@ -1,9 +1,9 @@
 export function getDefaultTextDirection (api) {
   const queryParam = api.getQueryParam('direction')
-  const bodyDirection = window.getComputedStyle(document.body).direction.toLowerCase()
-  return queryParam || bodyDirection || 'ltr'
+  const htmlDirection = window.getComputedStyle(document.documentElement).direction.toLowerCase()
+  return queryParam || htmlDirection || 'ltr'
 }
 
 export function setTextDirection (direction) {
-  document.body.dir = direction
+  document.documentElement.dir = direction
 }
