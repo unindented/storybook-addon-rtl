@@ -1,4 +1,4 @@
-import {getDefaultTextDirection, setTextDirection} from './utils'
+import { getDefaultTextDirection, setTextDirection } from './utils'
 
 describe('utils', () => {
   describe('.getDefaultTextDirection', () => {
@@ -6,7 +6,7 @@ describe('utils', () => {
       const api = {
         getQueryParam: jest.fn().mockReturnValue('rtl')
       }
-      jest.spyOn(window, 'getComputedStyle').mockReturnValue({direction: ''})
+      jest.spyOn(window, 'getComputedStyle').mockReturnValue({ direction: '' })
       expect(getDefaultTextDirection(api)).toBe('rtl')
     })
 
@@ -14,7 +14,7 @@ describe('utils', () => {
       const api = {
         getQueryParam: jest.fn().mockReturnValue(undefined)
       }
-      jest.spyOn(window, 'getComputedStyle').mockReturnValue({direction: 'rtl'})
+      jest.spyOn(window, 'getComputedStyle').mockReturnValue({ direction: 'rtl' })
       expect(getDefaultTextDirection(api)).toBe('rtl')
     })
 
@@ -22,7 +22,7 @@ describe('utils', () => {
       const api = {
         getQueryParam: jest.fn().mockReturnValue(undefined)
       }
-      jest.spyOn(window, 'getComputedStyle').mockReturnValue({direction: ''})
+      jest.spyOn(window, 'getComputedStyle').mockReturnValue({ direction: '' })
       expect(getDefaultTextDirection(api)).toBe('ltr')
     })
   })

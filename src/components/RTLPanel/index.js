@@ -1,11 +1,11 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import RTLToggle from '../RTLToggle'
-import {Panel} from './styles'
+import { Panel } from './styles'
 
 export default class RTLPanel extends Component {
   render () {
-    const {checked, onChange} = this.props
+    const { checked, onChange } = this.props
 
     return (
       <Panel>

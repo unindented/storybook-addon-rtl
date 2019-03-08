@@ -4,7 +4,7 @@ exports[`RTLPanel renders 1`] = `
 <styled.div>
   <RTLToggle
     checked={true}
-    onChange={[Function]}
+    onChange={[MockFunction]}
   />
 </styled.div>
 `;
