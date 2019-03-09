@@ -12,7 +12,7 @@ export default class RTLPanel extends Component {
       direction: getDefaultTextDirection(props.api)
     }
 
-    this.handleInitializeEvent = this.emitUpdateEvent.bind(this)
+    this.emitUpdateEvent = this.emitUpdateEvent.bind(this)
     this.handlePanelChange = this.handlePanelChange.bind(this)
   }
 
