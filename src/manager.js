@@ -8,7 +8,7 @@ export function register () {
     const channel = addons.getChannel()
     addons.addPanel(PANEL_ID, {
       title: 'RTL',
-      render: ({ active, key }) => { /* eslint-disable-line react/prop-types */
+      render: ({ active, key }) => { /* eslint-disable-line react/prop-types, react/display-name */
         if (!active) {
           return null
         }
