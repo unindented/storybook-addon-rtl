@@ -55,7 +55,7 @@ storiesOf('Component', module)
 
 ## Contributors
 
-* Daniel Perez Alvarez ([unindented@gmail.com]mailto:unindented@gmail.com))
+* Daniel Perez Alvarez ([unindented@gmail.com](mailto:unindented@gmail.com))
 
 
 ## License

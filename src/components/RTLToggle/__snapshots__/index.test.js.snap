@@ -13,7 +13,7 @@ exports[`RTLToggle checked renders 1`] = `
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "cCbzIc",
             "rules": Array [
               "
@@ -109,7 +109,7 @@ exports[`RTLToggle checked renders 1`] = `
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-htpNat",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "blGojZ",
                         "rules": Array [
                           "
@@ -237,7 +237,7 @@ exports[`RTLToggle checked renders 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "jMbeCk",
                   "rules": Array [
                     "
@@ -288,7 +288,7 @@ exports[`RTLToggle default renders 1`] = `
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "cCbzIc",
             "rules": Array [
               "
@@ -384,7 +384,7 @@ exports[`RTLToggle default renders 1`] = `
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-htpNat",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "blGojZ",
                         "rules": Array [
                           "
@@ -512,7 +512,7 @@ exports[`RTLToggle default renders 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "jMbeCk",
                   "rules": Array [
                     "
@@ -563,7 +563,7 @@ exports[`RTLToggle unchecked renders 1`] = `
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "cCbzIc",
             "rules": Array [
               "
@@ -659,7 +659,7 @@ exports[`RTLToggle unchecked renders 1`] = `
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-htpNat",
-                        "isStatic": true,
+                        "isStatic": false,
                         "lastClassName": "blGojZ",
                         "rules": Array [
                           "
@@ -787,7 +787,7 @@ exports[`RTLToggle unchecked renders 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-ifAKCX",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "jMbeCk",
                   "rules": Array [
                     "
