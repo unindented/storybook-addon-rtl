@@ -9,7 +9,8 @@
     "url": "https://github.com/unindented/storybook-addon-rtl.git"
   },
   "keywords": [
-    "storybook"
+    "storybook",
+    "storybook-addon"
   ],
   "scripts": {
     "clean:coverage": "rimraf coverage",
