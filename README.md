@@ -2,8 +2,7 @@
 
 Storybook Addon RTL allows you to switch to right-to-left flow in your stories in [Storybook](https://storybook.js.org).
 
-This addon works with Storybook for:
-[React](https://github.com/storybooks/storybook/tree/master/app/react).
+This addon has been tested with Storybook for React, Vue and Angular. It should also work in other frameworks.
 
 ![Storybook Addon RTL Demo](docs/demo.png)
 
@@ -14,21 +13,24 @@ This addon works with Storybook for:
 npm i --save-dev storybook-addon-rtl
 ```
 
-Create a file called `addons.js` in your storybook config, and add the following content to it:
+Add the addon to the addons array in `.storybook/main.js`
 
 ```js
-import 'storybook-addon-rtl/register';
+module.exports = {
+  /// other storybook configuration
+  addons: [
+    // other addons here
+    "storybook-addon-rtl",
+  ],
+};
 ```
 
-Create a file called `config.js` in your storybook config, and add the following content to it:
+Add the following to `preview.js`:
 
 ```js
-import { configure } from '@storybook/react';
 import { initializeRTL } from 'storybook-addon-rtl';
 
 initializeRTL();
-
-configure(() => { require('./stories') }, module);
 ```
 
 Then write your stories normally:
@@ -56,6 +58,7 @@ storiesOf('Component', module)
 ## Contributors
 
 * Daniel Perez Alvarez ([unindented@gmail.com](mailto:unindented@gmail.com))
+* Benjamin Kindle ([benjaminkindle@yahoo.com](mailto:benjaminkindle@yahoo.com))
 
 
 ## License
