@@ -41,12 +41,13 @@ import { storiesOf } from '@storybook/react';
 import Component from './Component';
 
 storiesOf('Component', module)
-  .add('default', () => (
-    <Component />
-  ));
+  .add(
+    'default', 
+    () => ( <Component /> ),
+    // Optionally include direction as story parameter 
+    { direction: 'rtl' }
+  );
 ```
-
-**Note:** You can force a story to show in right-to-left mode by adding the query parameter `direction=rtl`.
 
 
 ## Meta
