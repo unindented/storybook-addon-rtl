@@ -1,8 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`RTLPanel with direction set while panel closed renders 1`] = `
+<RTLPanel
+  checked={true}
+  onChange={[Function]}
+/>
+`;
+
 exports[`RTLPanel with query parameter renders 1`] = `
 <RTLPanel
   checked={true}
+  onChange={[Function]}
+/>
+`;
+
+exports[`RTLPanel with story param renders 1`] = `
+<RTLPanel
+  checked={true}
+  onChange={[Function]}
+/>
+`;
+
+exports[`RTLPanel with story param responds to changes 1`] = `
+<RTLPanel
+  checked={true}
+  onChange={[Function]}
+/>
+`;
+
+exports[`RTLPanel with story param responds to changes 2`] = `
+<RTLPanel
+  checked={false}
   onChange={[Function]}
 />
 `;
