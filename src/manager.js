@@ -34,7 +34,7 @@ export function setDirectionOnStoryChange (api) {
   // even if the panel is never opened
   channel.on(STORY_RENDERED, (_) => {
     const lastUpdate = channel.last(UPDATE_EVENT_ID)?.[0]
-    lastUserInteractionValue = lastUpdate.userInteraction ? lastUpdate.direction : lastUserInteractionValue
+    lastUserInteractionValue = lastUpdate?.userInteraction ? lastUpdate.direction : lastUserInteractionValue
 
     const paramValue = api.getCurrentParameter('direction')
     let newDirection
