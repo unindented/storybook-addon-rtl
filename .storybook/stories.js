@@ -1,21 +1,19 @@
 import React from 'react'
-import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
+
 import RTLToggle from '../src/components/RTLToggle'
 
-storiesOf('RTLToggle', module)
-  .add('default', () => (
-    <RTLToggle onChange={action('change')} />
-  ))
-  .add(
-    'unchecked',
-    () => (<RTLToggle checked={false} onChange={action('change')} />)
-  )
-  .add(
-    'rtl parameter',
-    () => (<RTLToggle checked={false} onChange={action('change')} />),
-    { direction: 'rtl' }
-  )
-  .add('checked', () => (
-    <RTLToggle checked onChange={action('change')} />
-  ))
+export default {
+  title: 'RTLToggle',
+  component: RTLToggle,
+}
+const Template = (args) => <RTLToggle onChange={action('change')} {...args}/>
+export const basic = Template.bind({});
+
+export const unchecked = Template.bind({});
+export const checked = Template.bind({})
+checked.args = {checked: true};
+export const rtlParameter = Template.bind({});
+rtlParameter.parameters = {
+  direction: 'rtl'
+}
