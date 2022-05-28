@@ -1,13 +1,13 @@
 module.exports = {
   stories: [
-    "./stories.js",
+    './stories.js'
   ],
   addons: [
-    "@storybook/addon-actions",
-    "../register"
+    '@storybook/addon-actions',
+    '../register'
   ],
   features: {
     storyStoreV7: true
   },
-  framework: "@storybook/react",
+  framework: '@storybook/react'
 }
