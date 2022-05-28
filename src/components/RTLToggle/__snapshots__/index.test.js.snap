@@ -1,826 +1,92 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RTLToggle checked renders 1`] = `
-<RTLToggle
-  checked={true}
-  onChange={[MockFunction]}
+<span
+  class="sc-bczRLJ kxUEBA"
 >
-  <styled.span>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "cCbzIc",
-            "rules": Array [
-              "
-  align-items: center;
-  display: flex;
-  font-family: -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", Roboto, \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif;
-  font-size: 13px;
-  white-space: nowrap;
-",
-            ],
-          },
-          "displayName": "styled.span",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+  <label
+    class="sc-gsnTZi ecyAuL"
+  >
+    <input
+      aria-controls="rtl-status"
+      checked=""
+      class="sc-dkzDqf khKIDk"
+      data-testid="rtl-toggle-input"
+      type="checkbox"
+    />
+    <a
+      class="sc-hKMtZM kLroqp"
     >
-      <span
-        className="sc-bdVaJa cCbzIc"
-      >
-        <styled.label
-          checked={true}
-        >
-          <StyledComponent
-            checked={true}
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": false,
-                  "lastClassName": "khbhTt",
-                  "rules": Array [
-                    "
-  background-color: hsl(",
-                    "208",
-                    ", 0%, 51%);
-  border-radius: ",
-                    "25",
-                    "px;
-  cursor: pointer;
-  display: block;
-  height: ",
-                    "25",
-                    "px;
-  position: relative;
-  transition: background-color 0.3s ease-in-out;
-  width: ",
-                    "50",
-                    "px;
-
-  ",
-                    [Function],
-                    "
-",
-                  ],
-                },
-                "displayName": "styled.label",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "label",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <label
-              checked={true}
-              className="sc-bwzfXH khbhTt"
-            >
-              <styled.input
-                aria-controls="rtl-status"
-                checked={true}
-                onChange={[Function]}
-                type="checkbox"
-              >
-                <StyledComponent
-                  aria-controls="rtl-status"
-                  checked={true}
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-htpNat",
-                        "isStatic": false,
-                        "lastClassName": "blGojZ",
-                        "rules": Array [
-                          "
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-",
-                        ],
-                      },
-                      "displayName": "styled.input",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-htpNat",
-                      "target": "input",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                  onChange={[Function]}
-                  type="checkbox"
-                >
-                  <input
-                    aria-controls="rtl-status"
-                    checked={true}
-                    className="sc-htpNat blGojZ"
-                    onChange={[Function]}
-                    type="checkbox"
-                  />
-                </StyledComponent>
-              </styled.input>
-              <styled.a
-                checked={true}
-              >
-                <StyledComponent
-                  checked={true}
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-bxivhb",
-                        "isStatic": false,
-                        "lastClassName": "bPhFPF",
-                        "rules": Array [
-                          "
-  background: hsl(",
-                          "208",
-                          ", 100%, 100%);
-  border-radius: ",
-                          "21",
-                          "px;
-  height: ",
-                          "21",
-                          "px;
-  left: ",
-                          "2",
-                          "px;
-  overflow: hidden;
-  position: absolute;
-  text-indent: -9999px;
-  top: ",
-                          "2",
-                          "px;
-  transition: left 0.3s ease-in-out, transform 0.3s ease-in-out, width 0.3s ease-in-out;
-  width: ",
-                          "21",
-                          "px;
-
-  ",
-                          ".sc-htpNat",
-                          ":active + & {
-    width: ",
-                          "29.5",
-                          "px;
-  }
-
-  ",
-                          ".sc-htpNat",
-                          ":focus + & {
-    outline: #444 dotted 1px;
-    outline: -webkit-focus-ring-color auto 5px;
-  }
-
-  ",
-                          [Function],
-                          "
-",
-                        ],
-                      },
-                      "displayName": "styled.a",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-bxivhb",
-                      "target": "a",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <a
-                    checked={true}
-                    className="sc-bxivhb bPhFPF"
-                  >
-                    Enable right-to-left
-                  </a>
-                </StyledComponent>
-              </styled.a>
-            </label>
-          </StyledComponent>
-        </styled.label>
-        <styled.span
-          aria-live="polite"
-          id="rtl-status"
-          role="region"
-        >
-          <StyledComponent
-            aria-live="polite"
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-ifAKCX",
-                  "isStatic": false,
-                  "lastClassName": "jMbeCk",
-                  "rules": Array [
-                    "
-  margin: 0 15px;
-",
-                  ],
-                },
-                "displayName": "styled.span",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-ifAKCX",
-                "target": "span",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            id="rtl-status"
-            role="region"
-          >
-            <span
-              aria-live="polite"
-              className="sc-ifAKCX jMbeCk"
-              id="rtl-status"
-              role="region"
-            >
-              Right-to-left
-            </span>
-          </StyledComponent>
-        </styled.span>
-      </span>
-    </StyledComponent>
-  </styled.span>
-</RTLToggle>
+      Enable right-to-left
+    </a>
+  </label>
+  <span
+    aria-live="polite"
+    class="sc-eCYdqJ gVppkG"
+    id="rtl-status"
+    role="region"
+  >
+    Right-to-left
+  </span>
+</span>
 `;
 
 exports[`RTLToggle default renders 1`] = `
-<RTLToggle
-  checked={false}
-  onChange={[MockFunction]}
+<span
+  class="sc-bczRLJ kxUEBA"
 >
-  <styled.span>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "cCbzIc",
-            "rules": Array [
-              "
-  align-items: center;
-  display: flex;
-  font-family: -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", Roboto, \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif;
-  font-size: 13px;
-  white-space: nowrap;
-",
-            ],
-          },
-          "displayName": "styled.span",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+  <label
+    class="sc-gsnTZi isuMOS"
+  >
+    <input
+      aria-controls="rtl-status"
+      class="sc-dkzDqf khKIDk"
+      data-testid="rtl-toggle-input"
+      type="checkbox"
+    />
+    <a
+      class="sc-hKMtZM jsWbyR"
     >
-      <span
-        className="sc-bdVaJa cCbzIc"
-      >
-        <styled.label
-          checked={false}
-        >
-          <StyledComponent
-            checked={false}
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": false,
-                  "lastClassName": "fCtDWM",
-                  "rules": Array [
-                    "
-  background-color: hsl(",
-                    "208",
-                    ", 0%, 51%);
-  border-radius: ",
-                    "25",
-                    "px;
-  cursor: pointer;
-  display: block;
-  height: ",
-                    "25",
-                    "px;
-  position: relative;
-  transition: background-color 0.3s ease-in-out;
-  width: ",
-                    "50",
-                    "px;
-
-  ",
-                    [Function],
-                    "
-",
-                  ],
-                },
-                "displayName": "styled.label",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "label",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <label
-              checked={false}
-              className="sc-bwzfXH fCtDWM"
-            >
-              <styled.input
-                aria-controls="rtl-status"
-                checked={false}
-                onChange={[Function]}
-                type="checkbox"
-              >
-                <StyledComponent
-                  aria-controls="rtl-status"
-                  checked={false}
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-htpNat",
-                        "isStatic": false,
-                        "lastClassName": "blGojZ",
-                        "rules": Array [
-                          "
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-",
-                        ],
-                      },
-                      "displayName": "styled.input",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-htpNat",
-                      "target": "input",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                  onChange={[Function]}
-                  type="checkbox"
-                >
-                  <input
-                    aria-controls="rtl-status"
-                    checked={false}
-                    className="sc-htpNat blGojZ"
-                    onChange={[Function]}
-                    type="checkbox"
-                  />
-                </StyledComponent>
-              </styled.input>
-              <styled.a
-                checked={false}
-              >
-                <StyledComponent
-                  checked={false}
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-bxivhb",
-                        "isStatic": false,
-                        "lastClassName": "dCNeto",
-                        "rules": Array [
-                          "
-  background: hsl(",
-                          "208",
-                          ", 100%, 100%);
-  border-radius: ",
-                          "21",
-                          "px;
-  height: ",
-                          "21",
-                          "px;
-  left: ",
-                          "2",
-                          "px;
-  overflow: hidden;
-  position: absolute;
-  text-indent: -9999px;
-  top: ",
-                          "2",
-                          "px;
-  transition: left 0.3s ease-in-out, transform 0.3s ease-in-out, width 0.3s ease-in-out;
-  width: ",
-                          "21",
-                          "px;
-
-  ",
-                          ".sc-htpNat",
-                          ":active + & {
-    width: ",
-                          "29.5",
-                          "px;
-  }
-
-  ",
-                          ".sc-htpNat",
-                          ":focus + & {
-    outline: #444 dotted 1px;
-    outline: -webkit-focus-ring-color auto 5px;
-  }
-
-  ",
-                          [Function],
-                          "
-",
-                        ],
-                      },
-                      "displayName": "styled.a",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-bxivhb",
-                      "target": "a",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <a
-                    checked={false}
-                    className="sc-bxivhb dCNeto"
-                  >
-                    Enable right-to-left
-                  </a>
-                </StyledComponent>
-              </styled.a>
-            </label>
-          </StyledComponent>
-        </styled.label>
-        <styled.span
-          aria-live="polite"
-          id="rtl-status"
-          role="region"
-        >
-          <StyledComponent
-            aria-live="polite"
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-ifAKCX",
-                  "isStatic": false,
-                  "lastClassName": "jMbeCk",
-                  "rules": Array [
-                    "
-  margin: 0 15px;
-",
-                  ],
-                },
-                "displayName": "styled.span",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-ifAKCX",
-                "target": "span",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            id="rtl-status"
-            role="region"
-          >
-            <span
-              aria-live="polite"
-              className="sc-ifAKCX jMbeCk"
-              id="rtl-status"
-              role="region"
-            >
-              Left-to-right
-            </span>
-          </StyledComponent>
-        </styled.span>
-      </span>
-    </StyledComponent>
-  </styled.span>
-</RTLToggle>
+      Enable right-to-left
+    </a>
+  </label>
+  <span
+    aria-live="polite"
+    class="sc-eCYdqJ gVppkG"
+    id="rtl-status"
+    role="region"
+  >
+    Left-to-right
+  </span>
+</span>
 `;
 
 exports[`RTLToggle unchecked renders 1`] = `
-<RTLToggle
-  checked={false}
-  onChange={[MockFunction]}
+<span
+  class="sc-bczRLJ kxUEBA"
 >
-  <styled.span>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "cCbzIc",
-            "rules": Array [
-              "
-  align-items: center;
-  display: flex;
-  font-family: -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", Roboto, \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif;
-  font-size: 13px;
-  white-space: nowrap;
-",
-            ],
-          },
-          "displayName": "styled.span",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+  <label
+    class="sc-gsnTZi isuMOS"
+  >
+    <input
+      aria-controls="rtl-status"
+      class="sc-dkzDqf khKIDk"
+      data-testid="rtl-toggle-input"
+      type="checkbox"
+    />
+    <a
+      class="sc-hKMtZM jsWbyR"
     >
-      <span
-        className="sc-bdVaJa cCbzIc"
-      >
-        <styled.label
-          checked={false}
-        >
-          <StyledComponent
-            checked={false}
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": false,
-                  "lastClassName": "fCtDWM",
-                  "rules": Array [
-                    "
-  background-color: hsl(",
-                    "208",
-                    ", 0%, 51%);
-  border-radius: ",
-                    "25",
-                    "px;
-  cursor: pointer;
-  display: block;
-  height: ",
-                    "25",
-                    "px;
-  position: relative;
-  transition: background-color 0.3s ease-in-out;
-  width: ",
-                    "50",
-                    "px;
-
-  ",
-                    [Function],
-                    "
-",
-                  ],
-                },
-                "displayName": "styled.label",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "label",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <label
-              checked={false}
-              className="sc-bwzfXH fCtDWM"
-            >
-              <styled.input
-                aria-controls="rtl-status"
-                checked={false}
-                onChange={[Function]}
-                type="checkbox"
-              >
-                <StyledComponent
-                  aria-controls="rtl-status"
-                  checked={false}
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-htpNat",
-                        "isStatic": false,
-                        "lastClassName": "blGojZ",
-                        "rules": Array [
-                          "
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-",
-                        ],
-                      },
-                      "displayName": "styled.input",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-htpNat",
-                      "target": "input",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                  onChange={[Function]}
-                  type="checkbox"
-                >
-                  <input
-                    aria-controls="rtl-status"
-                    checked={false}
-                    className="sc-htpNat blGojZ"
-                    onChange={[Function]}
-                    type="checkbox"
-                  />
-                </StyledComponent>
-              </styled.input>
-              <styled.a
-                checked={false}
-              >
-                <StyledComponent
-                  checked={false}
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-bxivhb",
-                        "isStatic": false,
-                        "lastClassName": "dCNeto",
-                        "rules": Array [
-                          "
-  background: hsl(",
-                          "208",
-                          ", 100%, 100%);
-  border-radius: ",
-                          "21",
-                          "px;
-  height: ",
-                          "21",
-                          "px;
-  left: ",
-                          "2",
-                          "px;
-  overflow: hidden;
-  position: absolute;
-  text-indent: -9999px;
-  top: ",
-                          "2",
-                          "px;
-  transition: left 0.3s ease-in-out, transform 0.3s ease-in-out, width 0.3s ease-in-out;
-  width: ",
-                          "21",
-                          "px;
-
-  ",
-                          ".sc-htpNat",
-                          ":active + & {
-    width: ",
-                          "29.5",
-                          "px;
-  }
-
-  ",
-                          ".sc-htpNat",
-                          ":focus + & {
-    outline: #444 dotted 1px;
-    outline: -webkit-focus-ring-color auto 5px;
-  }
-
-  ",
-                          [Function],
-                          "
-",
-                        ],
-                      },
-                      "displayName": "styled.a",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-bxivhb",
-                      "target": "a",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <a
-                    checked={false}
-                    className="sc-bxivhb dCNeto"
-                  >
-                    Enable right-to-left
-                  </a>
-                </StyledComponent>
-              </styled.a>
-            </label>
-          </StyledComponent>
-        </styled.label>
-        <styled.span
-          aria-live="polite"
-          id="rtl-status"
-          role="region"
-        >
-          <StyledComponent
-            aria-live="polite"
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-ifAKCX",
-                  "isStatic": false,
-                  "lastClassName": "jMbeCk",
-                  "rules": Array [
-                    "
-  margin: 0 15px;
-",
-                  ],
-                },
-                "displayName": "styled.span",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-ifAKCX",
-                "target": "span",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            id="rtl-status"
-            role="region"
-          >
-            <span
-              aria-live="polite"
-              className="sc-ifAKCX jMbeCk"
-              id="rtl-status"
-              role="region"
-            >
-              Left-to-right
-            </span>
-          </StyledComponent>
-        </styled.span>
-      </span>
-    </StyledComponent>
-  </styled.span>
-</RTLToggle>
+      Enable right-to-left
+    </a>
+  </label>
+  <span
+    aria-live="polite"
+    class="sc-eCYdqJ gVppkG"
+    id="rtl-status"
+    role="region"
+  >
+    Left-to-right
+  </span>
+</span>
 `;

@@ -31,6 +31,7 @@ export default class RTLToggle extends Component {
           <ToggleInput
             type='checkbox'
             aria-controls='rtl-status'
+            data-testid="rtl-toggle-input"
             checked={checked}
             onChange={this.handleChange}
           />

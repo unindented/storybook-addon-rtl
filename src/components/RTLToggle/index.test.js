@@ -1,9 +1,6 @@
 import React from 'react'
-import { mount, configure } from 'enzyme'
+import { fireEvent, render, act } from '@testing-library/react'
 import RTLToggle from '.'
-import Adapter from 'enzyme-adapter-react-16'
-
-configure({ adapter: new Adapter() })
 
 describe('RTLToggle', () => {
   let spy
@@ -15,36 +12,38 @@ describe('RTLToggle', () => {
 
   describe('default', () => {
     beforeEach(() => {
-      wrapper = mount(<RTLToggle onChange={spy} />)
+      wrapper = render(<RTLToggle onChange={spy} />)
     })
 
     it('renders', () => {
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
 
     it('invokes `onChange` when changed', () => {
-      wrapper.find('input').simulate('change', { target: { checked: true } })
+      act(() => {
+        fireEvent.click(wrapper.getByTestId('rtl-toggle-input'))
+      })
       expect(spy).toHaveBeenCalledWith(true)
     })
   })
 
   describe('unchecked', () => {
     beforeEach(() => {
-      wrapper = mount(<RTLToggle checked={false} onChange={spy} />)
+      wrapper = render(<RTLToggle checked={false} onChange={spy} />)
     })
 
     it('renders', () => {
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
   })
 
   describe('checked', () => {
     beforeEach(() => {
-      wrapper = mount(<RTLToggle checked onChange={spy} />)
+      wrapper = render(<RTLToggle checked onChange={spy} />)
     })
 
     it('renders', () => {
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
   })
 })
