@@ -6,5 +6,8 @@ module.exports = {
     "@storybook/addon-actions",
     "../register"
   ],
+  features: {
+    storyStoreV7: true
+  },
   framework: "@storybook/react",
 }

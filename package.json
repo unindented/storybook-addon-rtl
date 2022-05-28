@@ -45,7 +45,7 @@
     "prepublishOnly": "run-s clean build"
   },
   "dependencies": {
-    "@storybook/core-events": "^6.3.7",
+    "@storybook/core-events": "^6.5.5",
     "prop-types": "^15.7.2",
     "styled-components": "^4.4.1"
   },
@@ -54,9 +54,9 @@
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
-    "@storybook/addon-actions": "^6.3.0",
-    "@storybook/react": "^6.3.0",
-    "@storybook/storybook-deployer": "^2.8.10",
+    "@storybook/addon-actions": "^6.5.5",
+    "@storybook/react": "^6.5.5",
+    "@storybook/storybook-deployer": "^2.8.11",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.9.0",
     "enzyme": "^3.11.0",
