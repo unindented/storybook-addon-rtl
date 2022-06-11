@@ -36,17 +36,20 @@ initializeRTL();
 Then write your stories normally:
 
 ```js
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import Component from './Component';
+import React from 'react'
+import MyComponent from './MyComponent'
 
-storiesOf('Component', module)
-  .add(
-    'default', 
-    () => ( <Component /> ),
-    // Optionally include direction as story parameter 
-    { direction: 'rtl' }
-  );
+export default {
+  title: 'My Component',
+  component: MyComponent
+}
+const Template = (args) => <MyComponent {...args}/>
+export const default = Template.bind({})
+
+// Optionally include direction as story parameter
+rtlParameter.parameters = {
+  direction: 'rtl'
+}
 ```
 
 
