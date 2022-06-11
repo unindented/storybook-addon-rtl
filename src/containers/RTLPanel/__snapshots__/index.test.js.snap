@@ -1,43 +1,210 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RTLPanel with direction set while panel closed renders 1`] = `
-<RTLPanel
-  checked={true}
-  onChange={[Function]}
-/>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi ecyAuL"
+    >
+      <input
+        aria-controls="rtl-status"
+        checked=""
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM kLroqp"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Right-to-left
+    </span>
+  </span>
+</div>
 `;
 
 exports[`RTLPanel with query parameter renders 1`] = `
-<RTLPanel
-  checked={true}
-  onChange={[Function]}
-/>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi ecyAuL"
+    >
+      <input
+        aria-controls="rtl-status"
+        checked=""
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM kLroqp"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Right-to-left
+    </span>
+  </span>
+</div>
 `;
 
 exports[`RTLPanel with story param renders 1`] = `
-<RTLPanel
-  checked={true}
-  onChange={[Function]}
-/>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi ecyAuL"
+    >
+      <input
+        aria-controls="rtl-status"
+        checked=""
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM kLroqp"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Right-to-left
+    </span>
+  </span>
+</div>
 `;
 
 exports[`RTLPanel with story param responds to changes 1`] = `
-<RTLPanel
-  checked={true}
-  onChange={[Function]}
-/>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi ecyAuL"
+    >
+      <input
+        aria-controls="rtl-status"
+        checked=""
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM kLroqp"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Right-to-left
+    </span>
+  </span>
+</div>
 `;
 
 exports[`RTLPanel with story param responds to changes 2`] = `
-<RTLPanel
-  checked={false}
-  onChange={[Function]}
-/>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi isuMOS"
+    >
+      <input
+        aria-controls="rtl-status"
+        checked=""
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM jsWbyR"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Left-to-right
+    </span>
+  </span>
+</div>
 `;
 
 exports[`RTLPanel without query parameter renders 1`] = `
-<RTLPanel
-  checked={false}
-  onChange={[Function]}
-/>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi isuMOS"
+    >
+      <input
+        aria-controls="rtl-status"
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM jsWbyR"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Left-to-right
+    </span>
+  </span>
+</div>
 `;

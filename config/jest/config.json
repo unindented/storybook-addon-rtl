@@ -1,8 +1,6 @@
 {
   "rootDir": "../../",
-  "snapshotSerializers": [
-    "<rootDir>/node_modules/enzyme-to-json/serializer"
-  ],
+  "testEnvironment": "jsdom",
   "coverageReporters": [
     "text",
     "text-summary",

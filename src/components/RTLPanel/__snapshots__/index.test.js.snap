@@ -1,10 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RTLPanel renders 1`] = `
-<styled.div>
-  <RTLToggle
-    checked={true}
-    onChange={[MockFunction]}
-  />
-</styled.div>
+<div
+  class="sc-jSMfEi hfxUgk"
+>
+  <span
+    class="sc-bczRLJ kxUEBA"
+  >
+    <label
+      class="sc-gsnTZi ecyAuL"
+    >
+      <input
+        aria-controls="rtl-status"
+        checked=""
+        class="sc-dkzDqf khKIDk"
+        data-testid="rtl-toggle-input"
+        type="checkbox"
+      />
+      <a
+        class="sc-hKMtZM kLroqp"
+      >
+        Enable right-to-left
+      </a>
+    </label>
+    <span
+      aria-live="polite"
+      class="sc-eCYdqJ gVppkG"
+      id="rtl-status"
+      role="region"
+    >
+      Right-to-left
+    </span>
+  </span>
+</div>
 `;

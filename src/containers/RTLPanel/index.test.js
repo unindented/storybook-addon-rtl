@@ -1,10 +1,7 @@
+import { render, act } from '@testing-library/react'
 import React from 'react'
-import { shallow, configure } from 'enzyme'
 import RTLPanel from '.'
-import Adapter from 'enzyme-adapter-react-16'
 import { UPDATE_EVENT_ID } from '../../constants'
-
-configure({ adapter: new Adapter() })
 
 describe('RTLPanel', () => {
   let api
@@ -26,39 +23,39 @@ describe('RTLPanel', () => {
   describe('without query parameter', () => {
     beforeEach(() => {
       api.getQueryParam.mockReturnValue(undefined)
-      wrapper = shallow(<RTLPanel api={api} channel={channel} />)
+      wrapper = render(<RTLPanel api={api} channel={channel} />)
     })
 
     it('renders', () => {
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
   })
 
   describe('with query parameter', () => {
     beforeEach(() => {
       api.getQueryParam.mockReturnValue('rtl')
-      wrapper = shallow(<RTLPanel api={api} channel={channel} />)
+      wrapper = render(<RTLPanel api={api} channel={channel} />)
     })
 
     it('renders', () => {
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
   })
 
   describe('with direction set while panel closed', () => {
     beforeEach(() => {
       channel.last.mockReturnValue([{ direction: 'rtl' }])
-      wrapper = shallow(<RTLPanel api={api} channel={channel} />)
+      wrapper = render(<RTLPanel api={api} channel={channel} />)
     })
 
     it('renders', () => {
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
   })
 
   // Simulate a story param by emitting an event after the component is created
   describe('with story param', () => {
-    let updateEventHandler = () => {}
+    let updateEventHandler = () => { }
 
     beforeEach(() => {
       api.getQueryParam.mockReturnValue('rtl')
@@ -67,21 +64,27 @@ describe('RTLPanel', () => {
           updateEventHandler = handler
         }
       })
-      wrapper = shallow(<RTLPanel api={api} channel={channel} />)
+      wrapper = render(<RTLPanel api={api} channel={channel} />)
     })
 
     it('renders', () => {
-      updateEventHandler({ direction: 'rtl' })
+      act(() => {
+        updateEventHandler({ direction: 'rtl' })
+      })
 
-      expect(wrapper).toMatchSnapshot()
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
 
     it('responds to changes', () => {
-      updateEventHandler({ direction: 'rtl' })
-      expect(wrapper).toMatchSnapshot()
+      act(() => {
+        updateEventHandler({ direction: 'rtl' })
+      })
+      expect(wrapper.container.firstChild).toMatchSnapshot()
 
-      updateEventHandler({ direction: 'ltr' })
-      expect(wrapper).toMatchSnapshot()
+      act(() => {
+        updateEventHandler({ direction: 'ltr' })
+      })
+      expect(wrapper.container.firstChild).toMatchSnapshot()
     })
   })
 })
