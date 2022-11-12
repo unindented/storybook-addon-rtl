@@ -9,5 +9,8 @@ module.exports = {
   features: {
     storyStoreV7: true
   },
-  framework: '@storybook/react'
+  framework: '@storybook/react-webpack5',
+  core: {
+    builder: "@storybook/builder-webpack5"
+  }
 }
