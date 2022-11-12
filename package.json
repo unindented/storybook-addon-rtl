@@ -44,15 +44,15 @@
     "test": "run-s test:*",
     "build": "babel src -d dist",
     "watch": "babel src --out-dir dist --watch",
-    "build-storybook": "build-storybook",
+    "build-storybook": "storybook build",
     "deploy-storybook": "storybook-to-ghpages",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "storybook dev",
     "prepublishOnly": "run-s clean build"
   },
   "dependencies": {
-    "@storybook/core-events": "^6.5.5",
+    "@storybook/components": "^7.0.0-alpha.48",
+    "@storybook/core-events": "^7.0.0-alpha.48",
     "prop-types": "^15.8.1",
-    "storybook-addon-rtl": "^0.4.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
@@ -60,9 +60,12 @@
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.17.12",
-    "@storybook/addon-actions": "^6.5.5",
-    "@storybook/react": "^6.5.5",
-    "@storybook/storybook-deployer": "^2.8.11",
+    "@storybook/addon-actions": "~7.0.0-alpha.48",
+    "@storybook/addons": "~7.0.0-alpha.48",
+    "@storybook/builder-webpack5": "~7.0.0-alpha.48",
+    "@storybook/react": "~7.0.0-alpha.48",
+    "@storybook/react-webpack5": "^7.0.0-alpha.48",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@testing-library/react": "^13.3.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^28.1.0",
@@ -79,10 +82,11 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-test-renderer": "^18.1.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "storybook": "^7.0.0-alpha.48"
   },
   "peerDependencies": {
-    "@storybook/addons": ">=3.1.6 < 7.0.0",
+    "@storybook/addons": ">=3.1.6 < 8.0.0",
     "react": "*",
     "react-dom": "*"
   }

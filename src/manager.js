@@ -1,5 +1,5 @@
 import React from 'react'
-import addons from '@storybook/addons'
+import { addons } from '@storybook/addons'
 import { STORY_RENDERED } from '@storybook/core-events'
 import RTLPanel from './containers/RTLPanel'
 import { ADDON_ID, PANEL_ID, UPDATE_EVENT_ID } from './constants'

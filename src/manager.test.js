@@ -1,4 +1,4 @@
-import addons, { mockChannel } from '@storybook/addons'
+import { addons, mockChannel } from '@storybook/addons'
 import { STORY_RENDERED } from '@storybook/core-events'
 import { UPDATE_EVENT_ID } from './constants'
 import { setDirectionOnStoryChange } from './manager'
